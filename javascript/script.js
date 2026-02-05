@@ -16,7 +16,7 @@ $(document).ready(function() {
         if (libnaam_lc == "jquery") {
             $( "#rechthoek" ).text(
                 "Wat toevallig " + naam +
-                "! jQuery is ook mijn favouriete javacript library.");
+                "! jQuery is ook mijn favoriete javascript library.");
             $("#rechthoek").css({background: 'lightgreen'})
             $("label").css({color: 'green'})
             $("h1").css({color: 'green'})
