@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $( "#clickme" ).click(function() {        
+        $( "#rechthoek" ).slideUp("slow");
         $( "#rechthoek" ).slideDown("slow");
         // Haal tekst op uit invoervelden
         var naam = $("#voornaam").val();
@@ -11,7 +12,6 @@ $(document).ready(function() {
         if (libnaam == "") {
             libnaam = "[library niet ingevuld]"
         }
-        // Leidt ook low-case library naam om condities eenvoudiger te controlleren
         let libnaam_lc = libnaam.toLowerCase();
         if (libnaam_lc == "jquery") {
             $( "#rechthoek" ).text(
